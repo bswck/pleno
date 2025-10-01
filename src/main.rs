@@ -1,5 +1,8 @@
 use clap::Parser;
 
+mod object;
+mod symtable;
+
 #[derive(Parser)]
 /// A toy ELF linker for fun!
 struct Cli {
