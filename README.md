@@ -4,7 +4,7 @@
 
 - `nm` for listing symbols!
 
-  Consider this simple program from Anthony Sottile for generating UUIDs in C.
+  Consider this simple program I stole from one of Anthony Sottile's videos.
   
   ```c
   #include <uuid/uuid.h>
@@ -69,6 +69,8 @@
 - [ ] Read the contents data and the relocations. Apply the relocations to the contents. Write the result to the output file.
 - [ ] Optionally write out the complete symbol table with the final values of the symbols.
 More tomorrow.
+
+
 
 
 (“Linkers part 2”, Ian Lance Taylor)
